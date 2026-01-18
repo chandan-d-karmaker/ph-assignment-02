@@ -59,10 +59,14 @@
 
 /* header */
 
-header{
+header, .about-section{
     background-color: #1A0B2E;
 }
 /* navbar */
+
+/* .nav-mobile{
+    display: none;
+} */
 
 nav{
     border-bottom: 1px solid #412567;
@@ -92,7 +96,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 1rem;
     line-height: 120%;
     font-weight: 500;
@@ -115,7 +119,6 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     padding: 101px 0;
-    
 }
 
 .hero-img img{
@@ -148,7 +151,7 @@ nav ul li a{
 
 .hero-section p{
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.7);
     margin-bottom: 24px;
 }
 
@@ -158,8 +161,82 @@ nav ul li a{
     justify-content: center;
     text-align: center;
     gap: 8px;
+
 }
 
-@media screen and (max-width:) {
-    
+/* about section */
+
+.about-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content .about-heading{
+    text-align: center;
+}
+
+.about-heading h3{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.about-heading p{
+    font-size: 1rem;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.70);
+    font-weight: 400;
+}
+
+.about-heading .p1{
+    margin-bottom: 24px;
+}
+
+.about-heading .p2{
+    margin-bottom: 32px;
+}
+
+.about-heading{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #412567;
+}
+
+.about-card{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    justify-content: space-between;
+}
+
+.about-card .card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.about-card .card h4{
+    color: #0F8;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.about-card .card p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+/* responsive for mobile */
+
+@media screen and (max-width: 576px) {
+    /* navbar */
+
+    nav{
+        display: none;
+    }
 }

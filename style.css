@@ -135,12 +135,16 @@ nav ul li a{
 
 .hero-img{
     margin-bottom: 40px;
+    position: relative;
+    /* display: flex; */
 }
 
-/* .hero-img button{
-    margin-top: -200px;
-    margin-right: -200px;
-} */
+.hero-img button{
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.50);
+}
 
 .hero-section h3{
     font-size: 3.5rem;
@@ -227,6 +231,72 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
+}
+
+/* why section */
+
+.why-section{
+    background-color: #230E3D;
+    padding: 120px 0;
+}
+
+.why-section h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fact{
+
+    padding: 40px;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.40);
+    color: rgba(255, 255, 255, 0.80);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fact h5{
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.fact p{
+    font-size: 1rem;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.fact-1{
+    grid-row: span 2;
+}
+
+.fact-2{
+    grid-column: span 2;
+}
+
+.fact-3{
+    grid-column: span 2;
+}
+
+.fact-4{
+    grid-column: span 2;
 }
 
 

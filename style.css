@@ -59,15 +59,17 @@ header, .about-section, .featured-episodes,
 .host-section{
     background-color: #1A0B2E;
 
+}
 
+.w-full{
+    width: 100%;
+}
 /* header */
 
-}
+
 /* navbar */
 
-/* .nav-mobile{
-    display: none;
-} */
+
 
 nav{
     border-bottom: 1px solid #412567;
@@ -244,7 +246,7 @@ nav ul li a{
 .why-section h3{
     font-size: 3rem;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(255, 255, 255, 0.90);
     text-align: center;
     margin-bottom: 40px;
 }
@@ -475,4 +477,127 @@ footer{
     nav{
         display: none;
     }
+    /* .nav-mobile{
+        
+    } */
+
+    .nav-content{
+        padding: 16px 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-section{
+        background-size: 100%;
+        background-position: center;
+    }
+
+    .hero-img img{
+        /* width: 80px;
+        height: 80px; */
+        padding: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./assets/hero-circle.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 80%;
+    
+    }
+
+    .hero-img{
+        /* margin: 0 auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        position: relative;
+    
+    }
+
+    .hero-content{
+        padding: 40px 20px;
+    }
+
+    .about-content{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+
+    .facts-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 16px;
+        padding: 0 20px;
+        column-gap: 0;
+    }
+
+    .fact{
+        padding: 24px;
+    }
+
+    .fact-1{
+    grid-row: span 1;
+    }
+
+    .fact-2{
+        grid-column: span 1;
+    }
+
+    .fact-3{
+        grid-column: span 1;
+    }
+
+    .fact-4{
+        grid-column: span 1;
+    }
+
+    .featured-video{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        padding: 0 20px;
+    }
+
+    .host-section{
+        padding: 0 20px 40px 20px;
+    }
+
+    .host-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 24px;
+    }
+
+    .host-social{
+        justify-content: center;
+    }
+
+    footer{
+        padding: 40px 20px;
+        background-size: ;
+    }
+
+    .footer-content{
+        gap: 24px;
+    }
+
+    .footer-social-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+
+
 }

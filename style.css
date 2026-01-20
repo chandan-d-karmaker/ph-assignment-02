@@ -151,7 +151,6 @@ nav ul li a{
 .hero-img{
     margin-bottom: 40px;
     position: relative;
-    /* display: flex; */
 }
 
 .hero-img button{
@@ -469,8 +468,6 @@ footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
-    /* text-align: center; */
-    /* max-width: 580px; */
 }
 
 .footer-social{
@@ -488,6 +485,7 @@ footer{
 }
 
 /* responsive for mobile */
+
 @media screen and (min-width: 577px) {
     .nav-mobile{
         display: none;
@@ -495,7 +493,6 @@ footer{
 }
 
 @media screen and (max-width: 576px) {
-    /* navbar */
 
     .nav-pc{
         display: none;
@@ -522,8 +519,6 @@ footer{
     }
 
     .hero-img img{
-        /* width: 80px;
-        height: 80px; */
         padding: 60px;
         display: flex;
         align-items: center;
@@ -537,7 +532,7 @@ footer{
     }
 
     .hero-img{
-        /* margin: 0 auto; */
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -602,10 +597,10 @@ footer{
         padding: 0 20px;
     }
 
-    .featured-video .video{
-        /* margin: 0 auto; */
+    /* .featured-video .video{
+        margin: 0 auto;
         width: 100%;
-    }
+    } */
 
     .host-section{
         padding: 0 20px 40px 20px;
@@ -625,7 +620,6 @@ footer{
 
     footer{
         padding: 40px 20px;
-        /* background-size: ; */
     }
 
     .footer-content{

@@ -32,11 +32,13 @@
 }
 
 .btn-subs:hover{
-    scale: 110%;
+    scale: 105%;
+    translate: 0 -5px;
     transition: 0.5s;
 }
 .btn-subs2:hover{
-    scale: 110%;
+    scale: 105%;
+    translate: 0 -5px;
     transition: 0.5s;
 }
 
@@ -171,6 +173,7 @@ nav ul li a{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .hero-section .button{
@@ -514,7 +517,8 @@ footer{
     }
 
     .hero-section{
-        background-size: 100%;
+        background-image: url(./assets/hero-bg-mobile.png);
+        background-size: cover;
         background-position: center;
     }
 

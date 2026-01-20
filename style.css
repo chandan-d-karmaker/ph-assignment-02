@@ -65,7 +65,7 @@
 }
 
 header, .about-section, .featured-episodes, 
-.host-section{
+.host-section, .nav-mobile{
     background-color: #1A0B2E;
 
 }
@@ -83,11 +83,11 @@ header, .about-section, .featured-episodes,
 
 /* navbar */
 
-nav{
+.nav-pc{
     border-bottom: 1px solid #412567;
 }
 
-.nav-content{
+.nav-content-d{
     color: white;
     padding: 24px 0;
     display: flex;
@@ -505,7 +505,11 @@ footer{
         height: 24px;
     }
 
-    .nav-content{
+    .nav-mobile{
+        border-bottom: 1px solid #412567;
+    }
+
+    .nav-content-m{
         padding: 16px 24px;
         display: flex;
         justify-content: space-between;

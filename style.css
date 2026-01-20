@@ -500,14 +500,16 @@ footer{
     .nav-pc{
         display: none;
     }
-    /* .nav-mobile{
-        
-    } */
+    .nav-mobile .menu{
+        width: 24px;
+        height: 24px;
+    }
 
     .nav-content{
         padding: 16px 24px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .hero-section{
